@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "singularName": "about-us-page",
+    "pluralName": "about-us-pages",
+    "displayName": "About Us Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "displayName": "Seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "AboutUs": {
+      "type": "richtext"
+    }
+  }
+}
